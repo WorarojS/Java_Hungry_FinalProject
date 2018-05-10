@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #c30222;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rsController">
+    <children>
+      <ImageView fitHeight="279.0" fitWidth="296.0" layoutX="82.0" layoutY="102.0">
+         <image>
+            <Image url="@img/logotextico.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="randombut" layoutX="106.0" layoutY="463.0" mnemonicParsing="false" onAction="#randombut" prefHeight="37.0" prefWidth="187.0" style="-fx-background-color: yellow;" text="Random" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="507.0">
+         <font>
+            <Font name="Montserrat Light" size="13.0" />
+         </font></Button>
+      <Text fx:id="rName" fill="WHITE" layoutX="512.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.00000673532486">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font></Text>
+      <Text fx:id="rStyle" fill="WHITE" layoutX="512.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="209.21875834465027">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font></Text>
+      <Text fx:id="rPrice" fill="WHITE" layoutX="512.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="209.21875834465027">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="rLocation" fill="WHITE" layoutX="512.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="209.21875834465027">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="rReviews" fill="#faf32f" layoutX="512.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="209.21875834465027">
+         <font>
+            <Font name="Montserrat Medium" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#ffffffa3" layoutX="314.0" layoutY="577.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Random Restaurant by HungryPeople" />
+    </children>
+</AnchorPane>
